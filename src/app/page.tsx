@@ -40,7 +40,11 @@ export default function Home() {
       <div id="how-to-buy" data-section="how-to-buy" className="scroll-mt-24">
         <HowToBuy2D
           variant="simple"
-          steps={[{ title: "Step 1", description: "Register your account", image: "/images/placeholder1.avif", position: "left", isCenter: false }, { title: "Step 2", description: "Choose your plan", image: "/images/placeholder2.avif", position: "center", isCenter: true }, { title: "Step 3", description: "Start benefiting from our services", image: "/images/placeholder3.avif", position: "right", isCenter: false }]}
+          steps={[
+            { title: "Step 1", description: "Register your account", image: "/images/placeholder1.avif", position: "left", isCenter: false },
+            { title: "Step 2", description: "Choose your plan", image: "/images/placeholder2.avif", position: "center", isCenter: true },
+            { title: "Step 3", description: "Start benefiting from our services", image: "/images/placeholder3.avif", position: "right", isCenter: false }
+          ]}
         />
       </div>
       <div id="tokenomics" data-section="tokenomics" className="scroll-mt-24">
@@ -55,7 +59,11 @@ export default function Home() {
           logoSrc="/images/logo.svg"
           logoWidth={100}
           logoHeight={40}
-          columns={[{ title: "Links", items: [{ label: "Home", onClick: () => { /* Handle Home click */ } }, { label: "About", onClick: () => { /* Handle About click */ } }, { label: "Contact", onClick: () => { /* Handle Contact click */ }}] }, { title: "Help", items: [{ label: "FAQ", onClick: () => { /* Handle FAQ click */ } }, { label: "Support", onClick: () => { /* Handle Support click */ }}] }, { title: "Legal", items: [{ label: "Privacy Policy", onClick: () => { /* Handle Privacy click */ } }, { label: "Terms of Service", onClick: () => { /* Handle Terms click */ }}] }]}
+          columns={[
+            { title: "Links", items: [{ label: "Home", onClick: () => { /* Handle Home click */ } }, { label: "About", onClick: () => { /* Handle About click */ } }, { label: "Contact", onClick: () => { /* Handle Contact click */ }}] },
+            { title: "Help", items: [{ label: "FAQ", onClick: () => { /* Handle FAQ click */ } }, { label: "Support", onClick: () => { /* Handle Support click */ }}] },
+            { title: "Legal", items: [{ label: "Privacy Policy", onClick: () => { /* Handle Privacy click */ } }, { label: "Terms of Service", onClick: () => { /* Handle Terms click */ }}] }
+          ]}
           copyrightText="© 2023 NovaSaaS. All rights reserved."
           onPrivacyClick={() => { /* Handle Privacy click */ }}
         />
